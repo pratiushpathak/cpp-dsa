@@ -7,7 +7,7 @@ int main()
   bool isprime=true;
   cout<<"enter a number";
   cin>>num;
-  for (int  i = 2; i <=num-1; i++)
+  for (int  i = 2; i <=sqrt(num); i++)
   {
     if(num%i==0)// i is a factor of n or i comp;eteley divedes n or n is non prime
     {

@@ -1,5 +1,11 @@
 {
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "random": "cpp",
+    "algorithm": "cpp",
+    "istream": "cpp",
+    "numeric": "cpp",
+    "streambuf": "cpp",
+    "type_traits": "cpp"
   }
 }
