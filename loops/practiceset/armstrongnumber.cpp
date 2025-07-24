@@ -2,21 +2,29 @@
 using namespace std;
  int main()
  {
-  int num=173,rem=1,rev=0;
+  int num=173,sum=0,temp;
+temp=num;
 
 
-
-  while (num!=0)
+  while (temp!=0)
   {
-   rem=num%10;
-  //  cout<<rem;
-    rev=rev*10+rem;
-    cout<<rev<<endl;
-   num=num/10;
+  int digit=temp%10;
+  sum=sum+digit*digit*digit;
+  //  cout<<digit;
+    
+   temp=temp/10;
 
 
   }
-  cout<<rev;
+  if(sum==num)
+  {
+    cout<<"armstrong";
+  }
+  else
+  {
+    cout<<"not an armstrong number";
+  }
+ 
   
  
 
