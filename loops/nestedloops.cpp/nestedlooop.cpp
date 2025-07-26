@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
+  int i;
   //outer loop //rows
-  for (int i = 1; i <=4; i++)
+  for ( i = 1; i <=4; i++)
   {
     int val =i;
     for (int j = 1; j <=4; j++)
@@ -13,5 +14,6 @@ int main()
   cout<<endl;
   
   }
+  cout<<i;
   
 }
