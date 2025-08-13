@@ -1,0 +1,1 @@
+cout<< formula(2,3);
